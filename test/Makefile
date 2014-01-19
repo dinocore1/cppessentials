@@ -2,7 +2,7 @@
 CXX := g++
 CXX_INCLUDE := ../include
 CXXFLAGS := -std=c++0x -Wall -g -O0 -I$(CXX_INCLUDE)
-LDFLAGS :=
+LDFLAGS := -pthread
 
 TARGET := executortest
 SRCS := executortest.cpp
